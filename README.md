@@ -23,11 +23,12 @@ This is content moderation simulation project
 - 🔍 Find and count harmful words
 
 ## Todo
-- [ ] Create web server
-- [ ] Integrate with Firebase
-- [ ] UI
-- [ ] Implementation
-- [ ] ...
+- [x] Create web server
+- [x] Integrate with Firebase
+- [x] UI
+- [x] Implementation
+- [ ] Harmful indicator
+- [ ] Use Bahasa
 
 ## 🛠️ Instalasi
 ```bash
