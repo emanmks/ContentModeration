@@ -5,9 +5,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <title>Content Moderator</title>
+        <style>
+            .content-area {
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .moderation-textarea {
+                min-height: 200px;
+                resize: vertical;
+            }
+        </style>
     </head>
     <body>
-        <h1>Content Moderator Simulator</h1>
+        <div class="container content-area">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h1 class="text-center mb-4">Content Moderation Tool</h1>
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">About This Tool</h5>
+                            <p class="card-text">
+                                This content moderation tool helps you analyze and moderate text content.
+                                Simply paste your content in the textarea below, and our system will help
+                                identify potentially inappropriate or harmful content.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control moderation-textarea" placeholder="Enter your content here for moderation..."></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
         <script src="js/main.js"></script>
