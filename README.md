@@ -22,6 +22,13 @@ This is content moderation simulation project
 ## ✨ Fitur
 - 🔍 Find and count harmful words
 
+## Todo
+- [ ] Create web server
+- [ ] Integrate with Firebase
+- [ ] UI
+- [ ] Implementation
+- [ ] ...
+
 ## 🛠️ Instalasi
 ```bash
 # Clone repository
